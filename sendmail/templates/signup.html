@@ -1,0 +1,11 @@
+<h1>Hola, inicie sesion</h1>
+
+<form method="POST">
+
+{% csrf_token %}
+{{form.as_p}}
+
+<button>
+    Iniciar Sesión
+</button>
+</form>
